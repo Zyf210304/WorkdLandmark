@@ -15,6 +15,10 @@
 		009B344225A9F972003D2962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B344025A9F972003D2962 /* LaunchScreen.storyboard */; };
 		009B344D25A9F972003D2962 /* WorkdLandmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B344C25A9F972003D2962 /* WorkdLandmarkTests.swift */; };
 		009B345825A9F972003D2962 /* WorkdLandmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B345725A9F972003D2962 /* WorkdLandmarkUITests.swift */; };
+		009B346925A9FB21003D2962 /* ScenicAreaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B346825A9FB21003D2962 /* ScenicAreaListView.swift */; };
+		009B347125A9FCD6003D2962 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B347025A9FCD6003D2962 /* CircleImage.swift */; };
+		009B347625A9FED8003D2962 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B347525A9FED8003D2962 /* Landmark.swift */; };
+		00E3FF4725AA8D18003A2966 /* LandmakDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FF4625AA8D18003A2966 /* LandmakDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		009B345325A9F972003D2962 /* WorkdLandmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkdLandmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009B345725A9F972003D2962 /* WorkdLandmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkdLandmarkUITests.swift; sourceTree = "<group>"; };
 		009B345925A9F972003D2962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009B346825A9FB21003D2962 /* ScenicAreaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenicAreaListView.swift; sourceTree = "<group>"; };
+		009B347025A9FCD6003D2962 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		009B347525A9FED8003D2962 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		00E3FF4625AA8D18003A2966 /* LandmakDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmakDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				009B343425A9F971003D2962 /* WorkdLandmark */,
+				009B346825A9FB21003D2962 /* ScenicAreaListView.swift */,
+				00E3FF4625AA8D18003A2966 /* LandmakDetail.swift */,
+				009B347025A9FCD6003D2962 /* CircleImage.swift */,
+				009B347525A9FED8003D2962 /* Landmark.swift */,
 				009B344B25A9F972003D2962 /* WorkdLandmarkTests */,
 				009B345625A9F972003D2962 /* WorkdLandmarkUITests */,
 				009B343325A9F971003D2962 /* Products */,
@@ -266,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009B346925A9FB21003D2962 /* ScenicAreaListView.swift in Sources */,
+				00E3FF4725AA8D18003A2966 /* LandmakDetail.swift in Sources */,
 				009B343625A9F971003D2962 /* AppDelegate.swift in Sources */,
 				009B343825A9F971003D2962 /* SceneDelegate.swift in Sources */,
+				009B347625A9FED8003D2962 /* Landmark.swift in Sources */,
 				009B343A25A9F971003D2962 /* ContentView.swift in Sources */,
+				009B347125A9FCD6003D2962 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

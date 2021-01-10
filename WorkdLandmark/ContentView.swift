@@ -9,8 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            
+            List(landmarks) { landmark in
+                
+                NavigationLink(
+                    destination:  LandmakDetail(landmark: landmark)) {
+                    ScenicAreaListView(landmark: landmark)
+                    
+                }
+            }
+            .navigationTitle("景点")
+            
+        }
+        
+        
+
     }
 }
 
